@@ -1,0 +1,391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Maps for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-18 14:35+0200\n"
+"PO-Revision-Date: 2023-09-18 14:36+0200\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: configs\n"
+
+#: configs/admin-settings-fields.php:13
+msgid "Maps for WooCommerce Settings"
+msgstr "إعداد خرائط جوجل لمتجر WooCommerce"
+
+#: configs/admin-settings-fields.php:14
+msgid "Configure Google Maps for your WooCommerce store."
+msgstr "قم بتكوين إعدادات خرائط Google لمتجر WooCommerce الخاص بك."
+
+#: configs/admin-settings-fields.php:15
+msgid ""
+"Integrate Google Maps with WooCommerce for easy location selection during "
+"checkout and in user account addresses to elevate the shopping experience."
+msgstr ""
+"استخدم خرائط Google مع متجر WooCommerce لسهولة اختيار مكان المستخدم أثناء "
+"اتمام الطلب وفي عناوين الحساب للارتقاء بتجربة التسوق."
+
+#: configs/admin-settings-fields.php:20
+msgid "Activate"
+msgstr "تفعيل"
+
+#: configs/admin-settings-fields.php:21
+msgid "Enable or disable the maps for WooCommerce."
+msgstr "تمكين أو تعطيل الخرائط لـ WooCommerce."
+
+#: configs/admin-settings-fields.php:26
+msgid "API Key"
+msgstr "مفتاح API"
+
+#: configs/admin-settings-fields.php:27
+msgid "Google Maps API Key."
+msgstr "مفتاح API لخرائط جوجل."
+
+#: configs/admin-settings-fields.php:28
+msgid "The plugin will not be activated until a valid key is entered."
+msgstr "لن يتم تنشيط الخرائط حتى يتم إدخال مفتاح صحيح."
+
+#: configs/admin-settings-fields.php:37
+msgid "Map style and display settings"
+msgstr "نمط الخريطة وإعدادات العرض"
+
+#: configs/admin-settings-fields.php:42
+msgid "Set as Required"
+msgstr "تعيين كحقل مطلوب"
+
+#: configs/admin-settings-fields.php:43
+msgid ""
+"Make it mandatory for users to select a location on the map before proceeding "
+"to checkout and completing payment."
+msgstr ""
+"اجعل من الضروري للمستخدمين تحديد الموقع على الخريطة قبل متابعة الطلب وإكمال "
+"الدفع."
+
+#: configs/admin-settings-fields.php:48
+msgid "Auto Detect User Location"
+msgstr "التحديد التلقائي"
+
+#: configs/admin-settings-fields.php:49
+msgid ""
+"Automatically detect the user's location if they haven't saved their "
+"coordinates yet."
+msgstr ""
+"تحديد مكان المستخدم على الخريطة تلقائيًا في صفحة إكمال الطلب والعناوين إذا لم "
+"يدخل ويحفظ مكانه الحالي."
+
+#: configs/admin-settings-fields.php:50
+msgid ""
+"Requires location access permission to automatically determine the user's "
+"current location."
+msgstr "يتطلب إذن الوصول إلى الموقع لتحديد المكان الحالي للمستخدم تلقائيًا."
+
+#: configs/admin-settings-fields.php:55
+msgid "Map Display Location"
+msgstr "تحديد مكان عرض الخريطة"
+
+#: configs/admin-settings-fields.php:56
+msgid "Choose the address section where you want the map to be displayed."
+msgstr "اختر قسم العناوين الذي تريد عرض الخريطة فيه."
+
+#: configs/admin-settings-fields.php:59
+msgid "Billing Address"
+msgstr "عنوان الفوترة"
+
+#: configs/admin-settings-fields.php:60
+msgid "Shipping Address"
+msgstr "عنوان الشحن"
+
+#: configs/admin-settings-fields.php:65
+msgid "Map Style"
+msgstr "تخصيص الشكل"
+
+#: configs/admin-settings-fields.php:66
+msgid "Choose the map style you prefer to display."
+msgstr "اختر نمط الخريطة الذي تفضل عرضه."
+
+#: configs/admin-settings-fields.php:69
+msgid "Standard"
+msgstr "‫Standard"
+
+#: configs/admin-settings-fields.php:70
+msgid "Silver"
+msgstr "‫Silver"
+
+#: configs/admin-settings-fields.php:71
+msgid "Retro"
+msgstr "‫Retro"
+
+#: configs/admin-settings-fields.php:72
+msgid "Dark"
+msgstr "‫Dark"
+
+#: configs/admin-settings-fields.php:73
+msgid "Night"
+msgstr "‫Night"
+
+#: configs/admin-settings-fields.php:74
+msgid "Aubergine"
+msgstr "‫Aubergine"
+
+#: configs/admin-settings-fields.php:75
+msgid "Water"
+msgstr "‫Water"
+
+#: configs/admin-settings-fields.php:76
+msgid "Natural"
+msgstr "‫Natural"
+
+#: configs/admin-settings-fields.php:81
+msgid "Map Zoom Level"
+msgstr "مستوى تكبير/تصغير الخريطة"
+
+#: configs/admin-settings-fields.php:82
+msgid "Set the zoom level for the map."
+msgstr "ضبط مستوى التكبير/التصغير للخريطة."
+
+#: configs/admin-settings-fields.php:96
+msgid "Map Marker"
+msgstr "شكل دبوس الخريطة"
+
+#: configs/admin-settings-fields.php:97
+msgid "Select a marker style for your map."
+msgstr "اختر نمطًا لعلامة وشكل دبوس الخريطة."
+
+#: configs/admin-settings-fields.php:100
+msgid "Default Marker"
+msgstr "الافتراضي"
+
+#: configs/admin-settings-fields.php:101
+msgid "Blue Marker"
+msgstr "أزرق"
+
+#: configs/admin-settings-fields.php:102
+msgid "Green Marker"
+msgstr "أخضر"
+
+#: configs/admin-settings-fields.php:103
+msgid "Yellow Marker"
+msgstr "أصفر"
+
+#: configs/admin-settings-fields.php:104
+msgid "Purple Marker"
+msgstr "بنفسجي"
+
+#: configs/admin-settings-fields.php:105
+msgid "Pink Marker"
+msgstr "زهري"
+
+#: configs/admin-settings-fields.php:106
+msgid "+ Custom"
+msgstr "+ مخصص"
+
+#: configs/visibility-settings-fields.php:13
+msgid "Checkout Page"
+msgstr "صفحة إتمام الطلب"
+
+#: configs/visibility-settings-fields.php:14
+msgid ""
+"Show during the checkout page in billing or shipping sections based on the "
+"[Map Display Location] setting."
+msgstr ""
+"اظهار في صفحة الدفع في أقسام الفواتير أو الشحن بناءً على إعداد [تحديد مكان عرض "
+"الخريطة]."
+
+#: configs/visibility-settings-fields.php:17
+msgid "Address Account Page"
+msgstr "صفحة عناوين المستخدم"
+
+#: configs/visibility-settings-fields.php:18
+msgid ""
+"Show in the user account - address page under billing or shipping sections "
+"based on the [Map Display Location] setting."
+msgstr ""
+"اعرض في حساب المستخدم - صفحة العنوان ضمن أقسام الفواتير أو الشحن بناءً على "
+"إعداد [تحديد مكان عرض الخريطة]."
+
+#: configs/visibility-settings-fields.php:21
+msgid "Order Details Page"
+msgstr "صفحة عرض الطلب"
+
+#: configs/visibility-settings-fields.php:22
+msgid "Show in the order details page."
+msgstr "اعرض في صفحة تفاصيل الطلب للمستخدم."
+
+#: configs/visibility-settings-fields.php:25
+msgid "Admin Order Details Page"
+msgstr "صفحة عرض الطلب (الإدارة)"
+
+#: configs/visibility-settings-fields.php:26
+msgid "Show in the admin order details page."
+msgstr "اعرض في صفحة تفاصيل الطلب في لوحة تحكم المشرف."
+
+#: configs/visibility-settings-fields.php:29
+msgid "Profile Page"
+msgstr "الملف الشخصي (الإدارة)"
+
+#: configs/visibility-settings-fields.php:30
+msgid "Show in the user profile when editing the user in the admin."
+msgstr "اعرض في ملف تعريف المستخدم عند تحرير المستخدم في لوحة تحكم المشرف."
+
+#: src/core/class-mw-appliaction.php:81
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: src/core/class-mw-appliaction.php:129
+msgid "Maps for WooCommerce"
+msgstr "خرائط جوجل WooCommerce"
+
+#: src/core/class-mw-appliaction.php:135
+#, php-format
+msgid "%s requires %s to be activated."
+msgstr "يتطلب %s أن تكون الملحق %s مفعل."
+
+#: src/includes/class-mw-adminarea.php:40
+msgid "Google Maps for WooCommerce"
+msgstr "خرائط جوجل"
+
+#: src/includes/class-mw-ajax.php:22
+msgid "Token mismatch"
+msgstr "رمز الصفحة غير مطابق، يرجى تحديث الصفحة"
+
+#: src/includes/class-mw-hooks.php:35
+msgid "Order Location Map"
+msgstr "خريطة مكان الطلب"
+
+#: src/includes/class-mw-hooks.php:85 src/includes/class-mw-hooks.php:87
+#: src/views/frontend/checkout-map.php:14
+#: src/views/frontend/order-details-map.php:14
+msgid "Location"
+msgstr "المكان على الخريطة"
+
+#: src/includes/class-mw-hooks.php:88
+msgid "Drag the marker to choose user location."
+msgstr "قم بسحب و تحريك الدبوس لتحديد مكان المستخدم علي الخريطة."
+
+#: src/services/class-mw-admin-settings-service.php:46
+msgid "Google Maps API key is missing."
+msgstr "مفتاح API لخرائط جوجل غير موجود."
+
+#: src/services/class-mw-admin-settings-service.php:49
+msgid "Google Maps API key is not valid."
+msgstr "مفتاح API لخرائط جوجل غير صحيح."
+
+#: src/services/class-mw-admin-settings-service.php:93
+msgid "The default latitude or longitude coordinates are invalid."
+msgstr "إحداثيات خط العرض أو خط الطول الافتراضية غير صحيحة."
+
+#: src/services/class-mw-maps-service.php:30
+#: src/services/class-mw-maps-service.php:49
+msgid "Address"
+msgstr "العنوان"
+
+#: src/services/class-mw-maps-service.php:36
+msgid "Get My Location"
+msgstr "تحديد مكاني الحالي"
+
+#: src/services/class-mw-maps-service.php:37
+msgid ""
+"Location access denied. To use this feature, please enable location services "
+"in your browser settings."
+msgstr ""
+"تم رفض الوصول التلقائي إلى مكانك الحالي. لاستخدام هذه الميزة، الرجاء تمكين "
+"خدمات الموقع من إعدادات المتصفح الخاص بك."
+
+#: src/services/class-mw-maps-service.php:172
+msgid ""
+"The coordinates you entered are invalid. Please ensure they are within the "
+"valid range and try again."
+msgstr ""
+"الاحداثيات التي أدخلتها غير صحيحة. يرجى التأكد من أنها ضمن النطاق الصحيح "
+"وحاول مرة أخرى."
+
+#: src/services/class-mw-validate-service.php:23
+msgid "The map location is missing."
+msgstr "لم تقم بتحديد المكان على الخريطة."
+
+#: src/views/admin/custom-marker-field.php:16
+msgid "Custom Marker"
+msgstr "تخصيص"
+
+#: src/views/admin/custom-marker-field.php:26
+msgid ""
+"Enter a custom marker image URL. The recommended dimensions are 40x40 pixels."
+msgstr "أدخل عنوان URL لصورة العلامة المخصصة. الأبعاد الموصى بها هي 40x40 بكسل."
+
+#: src/views/admin/order-map.php:29
+msgid "No map data available for this order."
+msgstr "لا توجد بيانات متاحة للخريطة لهذا الطلب."
+
+#: src/views/admin/preview-map.php:16
+msgid "Use Default Coordinates"
+msgstr "استخدم الإحداثيات الافتراضية"
+
+#: src/views/admin/preview-map.php:25
+msgid "Use default coordinates for users without saved coordinates"
+msgstr "استخدم الإحداثيات الافتراضية للمستخدمين الذين لم يحددوا مكانهم بعد"
+
+#: src/views/admin/preview-map.php:30
+msgid "If unchecked, the map will load with zero coordinates."
+msgstr "إذا لم يتم تحديده، فسيتم تحميل الخريطة في ‫المرة الأولي‬ بإحداثيات صفرية."
+
+#: src/views/admin/preview-map.php:37
+msgid "Default Coordinates"
+msgstr "الاحداثيات الافتراضية"
+
+#: src/views/admin/preview-map.php:47
+msgid "Latitude"
+msgstr "خط العرض"
+
+#: src/views/admin/preview-map.php:56
+msgid "Longitude"
+msgstr "خط الطول"
+
+#: src/views/admin/preview-map.php:61
+msgid ""
+"Enter the default coordinates to be used during the initial load when the "
+"user has not yet saved their coordinates."
+msgstr ""
+"أدخل الإحداثيات الافتراضية التي سيتم استخدامها أثناء التحميل الأولي عندما لا "
+"يكون للمستخدم إحداثيات مخزنة بعد."
+
+#: src/views/admin/preview-map.php:66
+msgid "Map Preview"
+msgstr "معاينة الخريطة"
+
+#: src/views/admin/preview-map.php:75
+msgid "Loading map..."
+msgstr "تحميل الخريطة ..."
+
+#: src/views/admin/preview-map.php:89
+msgid "Drag the marker to define the initial map coordinates."
+msgstr "قم بسحب و تحريك الدبوس لتحديد إحداثيات الخريطة الأولية."
+
+#: src/views/admin/preview-map.php:94
+msgid "The map will appear when an active Google API key is entered."
+msgstr "ستظهر الخريطة عند إدخال مفتاح Google API صحيح."
+
+#: src/views/admin/visibility-settings-fields.php:12
+msgid "Map Visibility"
+msgstr "أماكن ظهور الخريطة"
+
+#: src/views/admin/visibility-settings-fields.php:14
+msgid "This section lets you control where the map appears and displays."
+msgstr "التحكم في مكان ظهور الخريطة وعرضها."
+
+#: src/views/frontend/checkout-map.php:18
+msgid "(optional)"
+msgstr "(اختياري)"
+
+#: src/views/frontend/checkout-map.php:32
+msgid "Drag the marker to choose your location."
+msgstr "قم بسحب و تحريك الدبوس لتحديد مكانك علي الخريطة."

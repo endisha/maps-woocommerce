@@ -1,0 +1,40 @@
+.loader {
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.spinner {
+    margin-top: 0 !important;
+}
+
+.map {
+    width: 50%;
+    height: 300px;
+    border: 1px solid #8c8f94;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.marker-custom-image-button {
+    vertical-align: -webkit-baseline-middle;
+    font-size: 15px;
+}
+
+#mwplg_maps_woocommerce_map_marker_custom_image-description {
+    display: block;
+}
+
+.maps_woocommerce_visibility_settings_fields .optional,
+#mwplg_maps_woocommerce_map_use_default_coordinates_field .optional {
+    display: none;
+}
+
+[dir="rtl"] .map-address {
+    unicode-bidi: plaintext;
+    text-align: right;
+    direction: rtl;
+}

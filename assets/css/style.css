@@ -1,0 +1,30 @@
+.get-location-button {
+    background: none padding-box rgb(255, 255, 255);
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 11px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+    padding: 0px 17px;
+    text-transform: none;
+    cursor: pointer;
+    text-align: center;
+    height: 30px;
+    vertical-align: middle;
+    color: rgb(86, 86, 86);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    border: 0;
+}
+
+.get-location-button:hover {
+    background: none padding-box rgb(233 233 233);
+}
+
+[dir="rtl"] .map-address {
+    unicode-bidi: plaintext;
+    text-align: right;
+    direction: rtl;
+}
+
+#billing_latitude_longitude {
+    display: none;
+}
